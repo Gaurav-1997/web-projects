@@ -3,7 +3,7 @@ import "../src/styles/Header.css";
 import  MenuIcon  from "@material-ui/icons/Menu";
 import { IconButton } from "@material-ui/core";
 import  SearchIcon  from "@material-ui/icons/Search";
-import  ArrowDropDownIcon  from "@material-ui/icons/ArrowDropDown";
+import  {ArrowDropDown}  from "@material-ui/icons";
 import  AppsIcon  from "@material-ui/icons/Apps";
 import { Avatar } from '@material-ui/core';
 import NotificationsIcon from '@material-ui/icons/Notifications';
@@ -27,7 +27,7 @@ const Header = (props) => {
       <div className="header__middle">
         <SearchIcon />
         <input placeholder="Search Mail" type="text" />
-        <ArrowDropDownIcon className="header_inputCarpet" />
+        <ArrowDropDown className="header_inputCarpet" />
       </div>
 
       <div className='header_right'>
